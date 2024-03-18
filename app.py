@@ -6,10 +6,9 @@ def luas_segitiga():
 
 luas_segitiga()
 
-def luas_persegi_panjang():
-    p = int(input("Masukkan panjang persegi:"))
-    l = int(input("Masuk lebar persegi:"))
-    luas = p * l
-    print("Luas segitiga adalah: ", luas)
+def luas_lingkaran():
+    r = int(input("Masukan jari jari lingkaran:"))
+    luas = 3.14 * r * r
+    print("Luas lingkaran adalah: ", luas)
 
-luas_persegi_panjang()
+luas_lingkaran()
